@@ -4,7 +4,7 @@
 
 ### What it should look like:
 
-![Calculator](calculator.jpg)
+![Calculator](../assets/calculator.jpg)
 
 ### How to submit your code for review:
 
