@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  height: 600px;
+  background-image: url(../assets/calculator.jpg);
+  background-repeat: no-repeat;
+}
+
+#display {
+  position: absolute;
+  top: 150px;
+  left: 190px;
+  font-size: 3em;
+}
+
+#zero,#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#plus,#minus,#equal,#divide,#mult,#dot {
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  padding: 26px;
+  border-radius: 50%;
+  border: 3px solid green;
+  color:yellow;
+  /* color: rgba(255, 255, 255, 0); */
+}
+
+#zero {
+  top: 464px;
+  left: 111px;
+}
+#one {
+  top: 394px;
+  left: 111px;
+}
+#two {
+  top: 394px;
+  left: 186px;
+}
+#three {
+  top: 394px;
+  left: 260px;
+}
+#four {
+  top: 320px;
+  left: 111px;
+}
+#five {
+  top: 320px;
+  left: 186px;
+}
+#six {
+  top: 320px;
+  left: 260px;
+}
+#seven {
+  top: 250px;
+  left: 111px;
+}
+#eight {
+  top: 250px;
+  left: 186px;
+}
+#nine {
+  top: 250px;
+  left: 260px;
+}
+#plus {
+  top: 394px;
+  left: 333px;
+}
+#minus {
+  top: 464px;
+  left: 333px;
+}
+#divide {
+  top: 250px;
+  left: 333px;
+}
+#mult {
+  top: 320px;
+  left: 333px;
+}
+#equal {
+  top: 464px;
+  left: 260px;
+}
+#dot {
+  top: 464px;
+  left: 186px;
+}
